@@ -1,0 +1,22 @@
+DBIx-Class-Sweet
+
+This module adds syntatic sugar for setting up your DBIx::Class classes. It's 
+motivation came from the fact that __PACKAGE__ is a rather ugly construct, 
+specially when you've got a dozen of them.
+
+INSTALLATION
+
+To install this module, run the following commands:
+
+    perl Makefile.PL
+    make
+    make test
+    make install
+
+
+COPYRIGHT AND LICENCE
+
+Copyright (C) 2006 Nilson Santos Figueiredo Júnior
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
